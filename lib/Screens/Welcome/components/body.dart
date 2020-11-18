@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_auth/Screens/Login/login_screen.dart';
-import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
-import 'package:flutter_auth/Screens/Welcome/components/background.dart';
-import 'package:flutter_auth/components/rounded_button.dart';
-import 'package:flutter_auth/constants.dart';
+import 'package:cupet_project/Screens/Login/login_screen.dart';
+import 'package:cupet_project/Screens/Signup/signup_screen.dart';
+import 'package:cupet_project/Screens/Welcome/components/background.dart';
+import 'package:cupet_project/components/rounded_button.dart';
+import 'package:cupet_project/constants.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {
@@ -17,13 +17,14 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "WELCOME TO EDU",
+              "WELCOME TO CUPET",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.05),
-            SvgPicture.asset(
-              "assets/icons/chat.svg",
-              height: size.height * 0.45,
+            Image.asset(
+              "assets/logos/logoword.jpg",
+              height: size.height * 0.40,
+              width: size.width * 0.80,
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(

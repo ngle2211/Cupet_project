@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_auth/Screens/Login/components/background.dart';
-import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
-import 'package:flutter_auth/components/already_have_an_account_acheck.dart';
-import 'package:flutter_auth/components/rounded_button.dart';
-import 'package:flutter_auth/components/rounded_input_field.dart';
-import 'package:flutter_auth/components/rounded_password_field.dart';
+import 'package:cupet_project/Screens/Login/components/background.dart';
+import 'package:cupet_project/Screens/Signup/signup_screen.dart';
+import 'package:cupet_project/components/already_have_an_account_acheck.dart';
+import 'package:cupet_project/components/rounded_button.dart';
+import 'package:cupet_project/components/rounded_input.dart';
+import 'package:cupet_project/components/rounded_password_field.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {
@@ -25,8 +25,8 @@ class Body extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.03),
-            SvgPicture.asset(
-              "assets/icons/login.svg",
+            Image.asset(
+              "assets/logos/logo1.jpg",
               height: size.height * 0.35,
             ),
             SizedBox(height: size.height * 0.03),
