@@ -1,7 +1,3 @@
-# Welcome page, Login Page and Sign up page - Flutter UI
-
-## [Watch it on YouTube](https://youtu.be/ExKYjqgswJg)
-
 **Packages we are using:**
 
 - flutter_svg: [link](https://pub.dev/packages/flutter_svg)
